@@ -7,16 +7,16 @@
     <p>You can find me sharing code on <%= link_to "GitHub", 'http://github.com/shawnpk', target: '_blank' %>.
   </div>
 
-  <!-- <div class="col-2 col-md-4 col-md-offset-1 homepage_content">
+  <div class="col-2 col-md-4 col-md-offset-1 homepage_content">
     <h2>Stuff I've Written</h2>
     <hr>
-    <%#= @posts.each do |post| %>
-    <h3><%#= link_to post.title, post %></h3>
+    <% @posts.each do |post| %>
+    <h3><%= link_to post.title, post %></h3>
     <p class="date">
-      <%#= post.created_at.strftime('%A, %b %d') %>
+      <%= post.created_at.strftime('%A, %b %d') %>
     </p>
-    <%# end %>
-  </div> -->
+    <% end %>
+  </div>
 
   <div class="col-2 col-md-4 col-md-offset-1 homepage_content">
     <h2>Stuff I've Built</h2>

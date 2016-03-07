@@ -84,7 +84,7 @@
  }
 
  p, li {
-   font-size: 1.1rem;
+  // font-size: 1.1rem;
    line-height: 1.75;
  }
 
@@ -111,7 +111,7 @@
      letter-spacing: 4px;
      text-transform: uppercase;
      border: 2px solid $border;
-     padding: 1em;
+    // padding: 1em;
      text-decoration: none;
      color: $dark;
      float: left;
@@ -187,6 +187,3 @@
      color: $highlight;
    }
  }
-
- //@import 'welcome';
- //@import 'post_projects';
