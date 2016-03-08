@@ -20,7 +20,7 @@ class PostsController < ApplicationController
     if @post.save
       redirect_to @post, notice: 'Hell yeah, Shawn! Your article was successfully saved.'
     else
-      redirect_to :new, notice: 'Oh no! I was unable to save your post.'
+      redirect_to :back, alert: 'Oh no! I was unable to save your post.'
     end
   end
   def update
