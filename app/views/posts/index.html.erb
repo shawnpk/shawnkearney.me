@@ -8,31 +8,6 @@
       <hr>
     </div><!-- end .post -->
   <% end %>
-  <div class="post">
-    <div class="date">Friday April 10th</div>
-    <h2><a href="#">The DO List</a></h2>
-    <hr>
-  </div><!-- end .post -->
-  <div class="post">
-    <div class="date">Friday April 10th</div>
-    <h2><a href="#">The DO List</a></h2>
-    <hr>
-  </div><!-- end .post -->
-  <div class="post">
-    <div class="date">Friday April 10th</div>
-    <h2><a href="#">The DO List</a></h2>
-    <hr>
-  </div><!-- end .post -->
-  <div class="post">
-    <div class="date">Friday April 10th</div>
-    <h2><a href="#">The DO List</a></h2>
-    <hr>
-  </div><!-- end .post -->
 </div>
 
-<div class="pagination">
-  <span class="previous_page disabled">Previous</span>
-  <em class="current">1</em>
-  <a href="#">2</a>
-  <a href="#" class="next_page">Next</a>
-</div><!-- end .pagination -->
+<%= will_paginate @posts %>
