@@ -187,3 +187,23 @@
      color: $highlight;
    }
  }
+
+ .project_button {
+   background: $highlight;
+   color: $white;
+   text-decoration: none;
+   padding: 1em 2em;
+   border: 1px solid $highlight;
+   transition: .4s ease-in-out;
+   &:hover {
+     background: $white;
+     border: 1px solid $light;
+     color: $dark;
+     text-decoration: none;
+   }
+ }
+
+ .button_wrapper {
+   margin: 4em 0 0 0;
+   text-align: center;
+ }
