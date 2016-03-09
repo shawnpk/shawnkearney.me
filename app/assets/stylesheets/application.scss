@@ -17,8 +17,9 @@
  $dark: #424652;
  $white: #fff;
  $light: #9a9da4;
- $highlight: #8bc6db;
+ $red: #8bc6db;
  $border: #e9e9e9;
+$red: rgba(192, 57, 43, .75);
 
  @import "bootstrap-sprockets";
  @import "bootstrap";
@@ -45,7 +46,7 @@
  }
 
  .notice {
-   color: $highlight;
+   color: $red;
    font-weight: 700;
  }
 
@@ -124,13 +125,13 @@
    display: block;
    height: 2px;
    border: 0;
-   border-top: 2px solid $highlight;
+   border-top: 2px solid $red;
    margin: 2rem 0;
  }
 
  #main_navigation {
   // padding: 2.5em 5%;
-  padding: 2.5em 5% 1em 5%;
+  padding: 2.5em 5%;
    border-bottom: 1px solid $border !important;
    background: $white !important;
    .name {
@@ -182,7 +183,7 @@
        padding-top: .2em;
        transition: .4s ease-in-out;
        &:hover {
-         color: $highlight;
+         color: $red;
        }
      }
    }
@@ -212,17 +213,17 @@
    padding: 1em 2em;
    transition: .4s ease-in-out;
    &:hover {
-     border: 2px solid $highlight;
-     color: $highlight;
+     border: 2px solid $red;
+     color: $red;
    }
  }
 
  .project_button {
-   background: $highlight;
+   background: $red;
    color: $white;
    text-decoration: none;
    padding: 1em 2em;
-   border: 1px solid $highlight;
+   border: 1px solid $red;
    transition: .4s ease-in-out;
    &:hover {
      background: $white;
