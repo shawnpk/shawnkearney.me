@@ -9,7 +9,6 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
-gem 'pygments.rb', '~> 0.6.3'
 gem 'redcarpet', '~> 3.3', '>= 3.3.4'
 gem 'friendly_id', '~> 5.1'
 gem 'will_paginate', '~> 3.1'
@@ -17,6 +16,7 @@ gem 'mail_form', '~> 1.5', '>= 1.5.1'
 gem 'devise', '~> 3.5', '>= 3.5.6'
 gem 'newrelic_rpm'
 gem 'nokogiri', '~> 1.8.1'
+gem 'pygments.rb', '~> 1.2', '>= 1.2.1'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 

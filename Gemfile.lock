@@ -104,10 +104,8 @@ GEM
       mini_portile2 (~> 2.3.0)
     orm_adapter (0.5.0)
     pg (0.21.0)
-    posix-spawn (0.3.13)
-    pygments.rb (0.6.3)
-      posix-spawn (~> 0.3.6)
-      yajl-ruby (~> 1.2.0)
+    pygments.rb (1.2.1)
+      multi_json (>= 1.0.0)
     rack (1.6.8)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -190,7 +188,6 @@ GEM
       railties (>= 4.0)
       sprockets-rails (>= 2.0, < 4.0)
     will_paginate (3.1.6)
-    yajl-ruby (1.2.3)
 
 PLATFORMS
   ruby
@@ -208,7 +205,7 @@ DEPENDENCIES
   newrelic_rpm
   nokogiri (~> 1.8.1)
   pg (~> 0.15)
-  pygments.rb (~> 0.6.3)
+  pygments.rb (~> 1.2, >= 1.2.1)
   rails (= 4.2.7.1)
   rails_12factor (~> 0.0.3)
   redcarpet (~> 3.3, >= 3.3.4)
